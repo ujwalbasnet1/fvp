@@ -12,18 +12,12 @@ Flutter video player plugin.
   s.homepage         = 'https://mediadevkit.com'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Wang Bin' => 'wbsecg1@gmail.com' }
-
-  s.compiler_flags   = '-Wno-documentation', '-std=c++20'
-  s.osx.frameworks    = 'FlutterMacOS'
-  #s.osx.pod_target_xcconfig  =  { 'OTHER_LDFLAGS'  =>  '-framework FlutterMacOS'  }
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
   s.ios.dependency 'Flutter'
   s.osx.dependency 'FlutterMacOS'
   s.ios.deployment_target = '11.0'
   s.osx.deployment_target = '10.11'
-  s.dependency 'mdk', '~> 0.28.0'
 
 #  s.platform = :osx, '10.11'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
