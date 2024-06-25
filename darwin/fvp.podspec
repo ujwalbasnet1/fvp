@@ -14,6 +14,7 @@ Flutter video player plugin.
   s.author           = { 'Wang Bin' => 'wbsecg1@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
+  s.public_header_files = 'Classes/**/*.h'
   s.ios.dependency 'Flutter'
   s.osx.dependency 'FlutterMacOS'
   s.ios.deployment_target = '11.0'
